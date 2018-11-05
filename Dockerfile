@@ -1,4 +1,4 @@
-FROM node:9 as builder
+FROM node:8.12.0 as builder
 
 RUN npm install -g create-elm-app@2.2.0 --unsafe-perm
 
