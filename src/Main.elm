@@ -200,7 +200,7 @@ view { desired, inputValue, validating, winners } =
                                 [ text "All winners have been confirmed" ]
 
                         _ ->
-                            div [ class "columns" ]
+                            div [ class "columns is-multiline" ]
                                 (List.map (viewWinnerItem validating) v)
                     ]
         ]
